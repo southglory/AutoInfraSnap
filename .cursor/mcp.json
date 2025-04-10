@@ -10,7 +10,7 @@
             "command": "C:/Users/devra/AppData/Local/nvm/v23.10.0/node",
             "args": [
                 "C:/Users/devra/AppData/Local/nvm/v23.10.0/node_modules/@modelcontextprotocol/server-filesystem/dist/index.js",
-                "C:/Users/devra/StudioProjects/wallet_game"
+                "C:/Users/devra/StudioProjects/AutoInfraSnap"
             ]
         },
         "desktop-commander": {

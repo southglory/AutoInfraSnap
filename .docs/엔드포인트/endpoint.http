@@ -26,26 +26,6 @@ Accept: application/json
 GET http://localhost:8080/api/docker/containers
 Accept: application/json
 
-### 시스템 알림 설정
-POST http://localhost:8080/api/notifications/settings
-Content-Type: application/json
-
-{
-    "slack": {
-        "webhook": "https://hooks.slack.com/services/xxx",
-        "channel": "#monitoring"
-    },
-    "email": {
-        "smtp_server": "smtp.company.com",
-        "recipients": ["team@company.com"]
-    },
-    "threshold": {
-        "cpu": 80,
-        "memory": 90,
-        "disk": 85
-    }
-}
-
 ### 리포트 수동 생성
 POST http://localhost:8080/api/report/generate
 Content-Type: application/json
@@ -56,28 +36,6 @@ Content-Type: application/json
     "bucket": "my-company-backups",
     "prefix": "infra/reports"
 }
-
-### 대시보드 설정 조회
-GET http://localhost:8080/api/dashboard/settings
-Accept: application/json
-
-### 대시보드 설정 업데이트
-PUT http://localhost:8080/api/dashboard/settings
-Content-Type: application/json
-
-{
-    "refresh_interval": 60,
-    "display_metrics": ["cpu", "memory", "disk", "docker"],
-    "theme": "dark",
-    "chart_type": "line"
-}
-
-### 시스템 상태 내보내기 (CSV)
-GET http://localhost:8080/api/export
-    ?format=csv
-    &start_date=2025-04-01
-    &end_date=2025-04-10
-Accept: text/csv
 
 ### 건강 상태 확인
 GET http://localhost:8080/health
