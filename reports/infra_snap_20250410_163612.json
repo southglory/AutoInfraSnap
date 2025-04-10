@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-04-10T16:36:11.480157",
+  "cpu": {
+    "percent": 10.9,
+    "count": 16
+  },
+  "memory": {
+    "total": 34028761088,
+    "available": 15396446208,
+    "percent": 54.8
+  },
+  "disk": {
+    "total": 510913409024,
+    "used": 457496023040,
+    "free": 53417385984,
+    "percent": 89.5
+  },
+  "docker": {
+    "status": "not_running",
+    "message": "Docker가 실행되지 않았습니다. Docker 데몬을 실행해주세요."
+  }
+}

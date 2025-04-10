@@ -56,4 +56,10 @@ autoinfrasnap --report --output report.json
 - Python 3.13 이상
 - pip 패키지 관리자
 
+### Auto_infra_snap 소개 영상
+
 [![오토인프라 스냅 소개 영상](https://img.youtube.com/vi/3VUKiSjrRP4/0.jpg)](https://youtu.be/3VUKiSjrRP4)
+
+### Auto_infra_snap fastapi 시연 영상
+
+[![오토인프라 스냅 fastapi 시연 영상](https://img.youtube.com/vi/Ta9d_NKLVjw/0.jpg)](<https://youtu.be/Ta9d_NKLVjw>)
