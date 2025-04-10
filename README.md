@@ -5,6 +5,7 @@
 ## 설치 방법
 
 1. 가상환경 생성 및 활성화:
+
 ```bash
 python -m venv .venv
 .venv/Scripts/activate  # Windows
@@ -12,6 +13,7 @@ source .venv/bin/activate  # Linux/Mac
 ```
 
 2. 패키지 설치:
+
 ```bash
 pip install -r requirements.txt
 pip install -e .
@@ -20,11 +22,13 @@ pip install -e .
 ## 사용 방법
 
 1. 시스템 상태 수집 및 리포트 생성:
+
 ```bash
 autoinfrasnap --report
 ```
 
 2. 특정 파일명으로 리포트 생성:
+
 ```bash
 autoinfrasnap --report --output report.json
 ```
