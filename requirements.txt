@@ -1,3 +1,6 @@
-psutil>=5.9.0
-docker>=6.1.0
-boto3>=1.26.0 
+psutil
+docker
+boto3
+fastapi
+uvicorn
+python-multipart 

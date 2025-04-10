@@ -10,14 +10,15 @@ setup(
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     install_requires=[
-        "psutil>=5.9.0",
-        "docker>=6.1.0",
-        "boto3>=1.26.0",
+        "psutil",
+        "docker",
+        "boto3",
+        "fastapi",
+        "uvicorn",
+        "python-multipart",
     ],
     entry_points={
-        "console_scripts": [
-            "autoinfrasnap=autoinfrasnap.cli:main",
-        ],
+        "console_scripts": ["autoinfrasnap=autoinfrasnap.cli:main", "autoinfrasnap-server=autoinfrasnap.server:run_server"],
     },
     python_requires=">=3.13",
     author="DevRamyun",
