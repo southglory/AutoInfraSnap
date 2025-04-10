@@ -1,0 +1,23 @@
+{
+    "servers": {
+        "sequential-thinking": {
+            "command": "C:/Users/devra/AppData/Local/nvm/v23.10.0/node",
+            "args": [
+                "C:/Users/devra/AppData/Local/nvm/v23.10.0/node_modules/@modelcontextprotocol/server-sequential-thinking/dist/index.js"
+            ]
+        },
+        "filesystem": {
+            "command": "C:/Users/devra/AppData/Local/nvm/v23.10.0/node",
+            "args": [
+                "C:/Users/devra/AppData/Local/nvm/v23.10.0/node_modules/@modelcontextprotocol/server-filesystem/dist/index.js",
+                "C:/Users/devra/StudioProjects/wallet_game"
+            ]
+        },
+        "desktop-commander": {
+            "command": "C:/Users/coolb/AppData/Local/nvm/v23.10.0/node",
+            "args": [
+                "C:/Users/coolb/AppData/Local/nvm/v23.10.0/node_modules/@wonderwhy-er/desktop-commander/index.js"
+            ]
+        }
+    }
+}
