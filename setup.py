@@ -1,4 +1,8 @@
 from setuptools import setup, find_packages
+import io
+
+with io.open("README.md", encoding="utf-8") as f:
+    long_description = f.read()
 
 setup(
     name="autoinfrasnap",
@@ -18,7 +22,7 @@ setup(
     python_requires=">=3.13",
     author="DevRamyun",
     description="CLI tool for automated infrastructure state snapshots",
-    long_description=open("README.md").read(),
+    long_description=long_description,
     long_description_content_type="text/markdown",
     license="MIT",
 )

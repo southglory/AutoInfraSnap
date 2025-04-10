@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-04-10T16:08:23.611184",
+  "cpu": {
+    "percent": 13.0,
+    "count": 16
+  },
+  "memory": {
+    "total": 34028761088,
+    "available": 16106455040,
+    "percent": 52.7
+  },
+  "disk": {
+    "total": 510913409024,
+    "used": 457498488832,
+    "free": 53414920192,
+    "percent": 89.5
+  },
+  "docker": {
+    "error": "Error while fetching server API version: (2, 'CreateFile', '지정된 파일을 찾을 수 없습니다.')"
+  }
+}
